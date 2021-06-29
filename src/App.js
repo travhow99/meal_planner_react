@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Counter } from './features/counter/Counter';
+import { Week } from './features/week/Week';
 
 function App() {
 	return (
@@ -19,7 +20,8 @@ function App() {
 					Learn React
 				</a>
 			</header>
-			<Counter />
+			{/* <Counter /> */}
+			<Week />
 		</div>
 	);
 }
